@@ -114,8 +114,8 @@ $(document).ready(function(){
                         type: "POST",
                         data: datos,
                         success: function(response){
-                            
-                            alert(response);
+                            let objeto_json = $.parseJSON(response);
+                            alert(objeto_json);
 
                         }
                     });

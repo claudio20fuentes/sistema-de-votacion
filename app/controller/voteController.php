@@ -18,6 +18,7 @@ if(isset($_POST['rut']) && isset($_POST['nombre']) && isset($_POST['alias']) && 
     //DEBE NO DEVOLVER NINGUN REGISTRO PARA INSERTAR EL REGISTRO
     $vote = new VoteController();
     $responseRut = $vote->showRutC($_POST['rut']);
+    $comprobarRut = null;
 
     foreach ($responseRut as $fila) {
              $comprobarRut = $fila['rut'];

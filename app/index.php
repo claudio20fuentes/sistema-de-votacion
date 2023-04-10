@@ -81,21 +81,18 @@ $candidates = $voteController->showCandidatesC();
                     </select>
                     </td>
                 </tr>
-                <tr>
-                    <td><label for="">Como se entero de nosotros</label></td>
+                <tr class="publicidad">
+                    <td class="d"><label for="">Como se entero de nosotros</label></td>
                     <td>
                         <input type="checkbox" id="web">
                         <label for="">Web</label>
-                    </td>
-                    <td>
+                    
                         <input type="checkbox" id="tv">
                         <label for="">Tv</label>
-                    </td>
-                    <td>
+                  
                         <input type="checkbox" id="redSocial">
                         <label for="">Redes Sociales</label>
-                    </td>
-                    <td>
+                    
                         <input type="checkbox" id="amigo">
                         <label for="">Amigo</label>
                     </td>
